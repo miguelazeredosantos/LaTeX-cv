@@ -1,0 +1,138 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Miguel} \headerlastnamestyle{Azeredo Santos} \\
+	
+	\headersocialstyle{ {\faLink\ github.com/xtravaganzaa} | {\faLink\ linkedin.com/in/miguel-azeredo-santos-5a2971117/} }
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-2mm}
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{Graduation in computer engineering}
+	{Higher Institute of Engineering of Porto (ISEP)}
+	{Porto, Portugal}
+	{2016 - Present}
+	{}
+\end{cventries}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-5mm}
+\cvsection{Projects}
+\begin{cventries}
+ 	\cventry
+	{}
+	{LAPR1}
+	{Java}
+	{}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{}
+	{LAPR2}
+	{Java}
+	{}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{This project goal was to study the energy consumption in road
+	transformation, through a simulation of a road network that
+	applied classical mechanics and fluids laws.}
+	{LAPR3}
+	{Java, PL/SQL}
+	{}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{}
+	{LAPR4}
+	{Java}
+	{}
+	{}
+
+	\vspace{-5mm}
+	\cventry
+	{}
+	{LAPR5}
+	{C Sharp, Angular, Node.js, PROLOG, ES6, JS, TS}
+	{}
+	{}
+	
+	\vspace{-5mm}
+\end{cventries}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Skills
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{-2mm}
+\cvsection{Skills}
+\begin{cventries}
+	\vspace{-2mm}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Programming Languages:  & {\skill{ Java, JavaScript, C Sharp, PROLOG }} \\
+		Programming Frameworks:  & {\skill{ Angular, Node.js, .NET Core, Jira, Git, SonarQube, Jenkins, Oracle, Maven}} \\
+		Spoken Languages:  & {\skill{ English, Portuguese, French, Spanish}} \\
+		Soft Skills:  & {\skill{ Team work, Self-motivation, Creativity, Good communication}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\
+\end{document}
